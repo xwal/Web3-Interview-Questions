@@ -1,0 +1,3 @@
+[submodule "WTF-Solidity"]
+	path = WTF-Solidity
+	url = https://github.com/WTFAcademy/WTF-Solidity.git
