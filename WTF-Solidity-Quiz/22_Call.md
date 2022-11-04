@@ -1,20 +1,20 @@
 1. call是什么类型的成员变量？
 
-- [ ] address
+- [x] address
 - [ ] bool
 - [ ] enum
 - [ ] 它本身就是一种类型
 
 2. call被推荐用来干什么？
 
-- [ ] 发送ETH
+- [x] 发送ETH
 - [ ] 调用另一个合约
 - [ ] 调用Library
 - [ ] 解码ABI
 
 3. call的返回类型为
 
-- [ ] bool 和 bytes memory
+- [x] bool 和 bytes memory
 - [ ] bool
 - [ ] bytes
 - [ ] bool 和 memory
@@ -24,7 +24,7 @@
 - [ ] address(nameReg).call{gas: 1000000}(abi.encodeWithSignature("register(string)", "MyName"));
 - [ ] address(nameReg).call{value: 1 ether}(abi.encodeWithSignature("register(string)", "MyName"));
 - [ ] address.call{gas: 1000000, value: 1 ether}
-- [ ] call{gas: 1000000, value: 1 ether}
+- [x] call{gas: 1000000, value: 1 ether}
 
 5. 下面是一个退款合约，请问它是否有Bug?
 
@@ -37,12 +37,12 @@ contract Fund {
     }
 }
 
-- [ ] 是
+- [x] 是
 - [ ] 否
 
 6. 如果我们给call输入的函数不存在于目标合约，那么目标合约的什么函数会被触发？
 
-- [ ] fallback
+- [x] fallback
 - [ ] receive
 - [ ] reponse
 - [ ] error
@@ -51,5 +51,5 @@ contract Fund {
 
 - [ ] 当调用不存在的函数时，被调用合约实现fallback
 - [ ] 被调用合约没有实现receive
-- [ ] 当调用不存在的函数时，被调用合约没有实现fallback
+- [x] 当调用不存在的函数时，被调用合约没有实现fallback
 - [ ] call从来不会失败
